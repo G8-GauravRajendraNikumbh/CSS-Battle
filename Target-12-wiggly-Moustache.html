@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+          background-color:#F5D6B4;
+          /* display:flex;
+          justify-content:center;
+          align-items:center; */
+             margin:0;
+          
+        }
+        .middle-circle{
+          position:absolute;
+          top:100px;
+          /* add this line */
+          left:150px;
+          width:100px;
+          height:50px;
+          background-color:#D86F45;
+          border-top-left-radius:50px;
+          border-top-right-radius:50px;
+        }
+        
+        .inner-circle{
+          position:absolute;
+          top:20px;
+          left:20px;
+          width:60px;
+          height:60px;
+          background-color:#F5D6B4;
+             border-radius:50%;
+          
+        }
+        
+        .left-circle{
+          position:absolute;
+          top:150px;
+          left:70px;
+          width:100px;
+          height:50px;
+          background-color:#D86F45;
+          border-bottom-left-radius:50px;
+          border-bottom-right-radius:50px;
+          
+        }
+        .left-inner-circle{
+          position:absolute;
+          top:-30px;
+          left:20px;
+          width:60px;
+          height:60px;
+          background-color:#F5D6B4;
+             border-radius:50%;
+          
+        }
+        .left-cap{
+          width:20px;
+          height:20px;
+          background-color:#D86F45;
+          position:absolute;
+          top:-10px;
+          border-radius:50%;
+        }
+        
+        .right-circle{
+          position:absolute;
+          top:150px;
+          left:230px;
+          width:100px;
+          height:50px;
+          background-color:#D86F45;
+          border-bottom-left-radius:50px;
+          border-bottom-right-radius:50px;
+          
+        }
+        .right-inner-circle{
+          position:absolute;
+          top:-30px;
+          left:20px;
+          width:60px;
+          height:60px;
+          background-color:#F5D6B4;
+             border-radius:50%;
+          
+        }
+        .right-cap{
+          width:20px;
+          height:20px;
+          background-color:#D86F45;
+          position:absolute;
+          left:80px;
+          top:-10px;
+          border-radius:50%;
+          
+        }
+      </style>
+</head>
+<body>
+    <div class="middle-circle">
+        <div class="inner-circle"></div>
+      </div>
+      <div class="left-circle">
+          <div class="left-inner-circle"></div>
+        <div class="left-cap"></div>
+      </div>
+      <div class="right-circle">
+          <div class="right-inner-circle"></div>
+        <div class="right-cap"></div>
+      </div>
+</body>
+</html>
